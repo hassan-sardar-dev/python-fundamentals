@@ -22,6 +22,8 @@ python3 01-variables/variables.py
 python3 02-data-types/data_types.py
 python3 03-numbers/numbers.py
 python3 04-strings/strings.py
+python3 05-lists/lists.py
+python3 06-tuples/tuples.py
 ```
 
 Run the exercises the same way, then check your work against the solutions:
@@ -42,12 +44,14 @@ file uses only the Python standard library.
 | 02 | Data Types | [02-data-types](02-data-types/README.md) | ✅ Done |
 | 03 | Numbers | [03-numbers](03-numbers/README.md) | ✅ Done |
 | 04 | Strings | [04-strings](04-strings/README.md) | ✅ Done |
-| 05 | Conditionals and Loops | — | Coming next |
-| 06 | Functions and Modules | — | Coming next |
-| 07 | Collections (Lists, Tuples, Sets, Dictionaries) | — | Coming next |
-| 08 | File Handling and Exceptions | — | Coming next |
-| 09 | Object-Oriented Programming | — | Coming next |
-| 10 | Advanced Python and Projects | — | Coming next |
+| 05 | Lists | [05-lists](05-lists/README.md) | ✅ Done |
+| 06 | Tuples | [06-tuples](06-tuples/README.md) | ✅ Done |
+| 07 | Conditionals and Loops | — | Coming next |
+| 08 | Functions and Modules | — | Coming next |
+| 09 | Collections (Sets and Dictionaries) | — | Coming next |
+| 10 | File Handling and Exceptions | — | Coming next |
+| 11 | Object-Oriented Programming | — | Coming next |
+| 12 | Advanced Python and Projects | — | Coming next |
 
 ## Full learning path
 
@@ -55,12 +59,14 @@ file uses only the Python standard library.
 2. ✅ **Data Types** — int, float, str, bool, None, list, tuple, set, dict
 3. ✅ **Numbers** — arithmetic, `math`, `random`, formatting
 4. ✅ **Strings** — indexing, slicing, f-strings, and every common method
-5. **Conditionals and Loops** — `if` / `elif` / `else`, `for`, `while`
-6. **Functions and Modules** — `def`, arguments, return values, imports
-7. **Collections** — lists, tuples, sets, and dictionaries in depth
-8. **File Handling and Exceptions** — reading/writing files, `try` / `except`
-9. **Object-Oriented Programming** — classes, objects, inheritance
-10. **Advanced Python and Projects** — putting it all together
+5. ✅ **Lists** — ordered, mutable, all 11 list methods, comprehension, copying vs aliasing
+6. ✅ **Tuples** — ordered, immutable, unpacking, tuple vs list
+7. **Conditionals and Loops** — `if` / `elif` / `else`, `for`, `while`
+8. **Functions and Modules** — `def`, arguments, return values, imports
+9. **Collections (Sets and Dictionaries)** — sets and dictionaries in depth
+10. **File Handling and Exceptions** — reading/writing files, `try` / `except`
+11. **Object-Oriented Programming** — classes, objects, inheritance
+12. **Advanced Python and Projects** — putting it all together
 
 ## Hassan's first examples
 
