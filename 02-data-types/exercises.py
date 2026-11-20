@@ -1,35 +1,22 @@
-"""Lesson 02 - Data Types: Exercises.
+# exercises 02, try yourself first
 
-Run: python3 exercises.py
-Try each exercise yourself. Do NOT look at solutions.py until you have tried.
-"""
-
-print("--- Exercise 1: What type is it? ---")
-# Print the type of each value using type():
-# 42, 3.14, "Python", True, None, [1, 2], (1, 2), {"a": 1}
+# question 1
+# print type of 42, 3.14, "Python", True, None, [1, 2], (1, 2), {"a": 1}
 
 
-print("--- Exercise 2: Convert a string age ---")
-# age_text = "25"  (a string, like what input() returns)
-# Convert it to an int, add 5, and print the result (should be 30).
-# Then convert the result back to a string and print its type.
+# question 2
+# age_text = "25", make it int, add 5, print 30, then back to str and print type
 
 
-print("--- Exercise 3: isinstance() checks ---")
-# Create: score = 95, name = "Hassan", price = 49.99, active = False
-# Use isinstance() to print True/False for:
-# score is an int, name is a str, price is an int, active is a bool
+# question 3
+# score = 95, name = "Hassan", price = 49.99, active = False
+# check with isinstance, print True or False
 
 
-print("--- Exercise 4: Mutable vs immutable ---")
-# Create a list colours = ["red", "green", "blue"].
-# Change the second item to "yellow" and print the list.
-# Then create a string word = "hello" and make a NEW variable
-# word_upper = word.upper() — print both word and word_upper.
-# (Notice: the original string did not change.)
+# question 4
+# colours = ["red", "green", "blue"], change 2nd to "yellow"
+# word = "hello", make word_upper, print both
 
 
-print("--- Exercise 5: Truthy or falsy? ---")
-# Print bool() for each of these values: 0, 1, "", "hello", [], [0], None
-# Add a short comment next to each print saying True or False and why.
-# (Hint: empty values and zero are falsy; almost everything else is truthy.)
+# question 5
+# print bool of 0, 1, "", "hello", [], [0], None

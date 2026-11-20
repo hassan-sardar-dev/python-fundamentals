@@ -1,34 +1,20 @@
-"""Lesson 01 - Variables: Exercises.
+# exercises 01, try yourself first
 
-Run: python3 exercises.py
-Try each exercise yourself. Do NOT look at solutions.py until you have tried.
-"""
-
-print("--- Exercise 1: Your introduction ---")
-# Create two variables: your_name (a string) and your_age (a number).
-# Print: "My name is <your_name> and I am <your_age> years old."
-# Use an f-string.
+# question 1
+# make your_name and your_age, print "My name is ... and I am ... years old."
 
 
-print("--- Exercise 2: Simple maths with variables ---")
-# Create variables a = 12 and b = 4.
-# Print a + b, a - b, a * b, and a / b, each on its own line.
+# question 2
+# a = 12 and b = 4, print a + b, a - b, a * b, a / b
 
 
-print("--- Exercise 3: Swap two values ---")
-# Create x = 7 and y = 9, print them, swap them, then print them again.
-# After the swap, x should be 9 and y should be 7.
+# question 3
+# x = 7 and y = 9, print them, swap them, print again
 
 
-print("--- Exercise 4: Reassign and update ---")
-# Create score = 0. Then add 10 to it, then add 5 more.
-# Print score after each step. The final value should be 15.
-# (Hint: score = score + 10, or the shortcut score += 10.)
+# question 4
+# score = 0, add 10, then add 5, print after each step, last is 15
 
 
-print("--- Exercise 5: A small shop bill ---")
-# A pen costs 50 and a notebook costs 120.
-# Create variables pen_price, notebook_price, pen_qty = 2, notebook_qty = 3.
-# Calculate the total cost and print it in a sentence like:
-# "Total bill: 460"
-# (2 pens = 100, 3 notebooks = 360, total = 460.)
+# question 5
+# pen 50, notebook 120, 2 pens and 3 notebooks, total bill = 460

@@ -1,15 +1,8 @@
-"""Lesson 03 - Numbers.
-
-Run: python3 numbers.py
-No input() here, so it runs start to finish without stopping.
-This file fixes and expands Hassan's original number.py
-(the old comment said "mehtods" - the correct spelling is "methods").
-"""
-
+# numbers
 import math
 import random
 
-print("--- 1. int, float, complex ---")
+# int, float, complex
 a = 10
 b = 3.5
 c = 2 + 3j
@@ -18,7 +11,7 @@ print(b, type(b))
 print(c, type(c))
 print(10 + 3.5, type(10 + 3.5))
 
-print("--- 2. Arithmetic operators ---")
+# maths
 print(5 + 3)
 print(5 - 3)
 print(5 * 3)
@@ -30,13 +23,13 @@ print(10 % 3)
 print(-7 // 2)
 print("Is 10 even?", 10 % 2 == 0)
 
-print("--- 3. Precedence ---")
+# brackets first
 print(2 + 3 * 4)
 print((2 + 3) * 4)
 print(2 ** 3 ** 2)
 print(10 - 4 - 3)
 
-print("--- 4. Built-in functions ---")
+# round, abs, min, max
 print(round(10.5))
 print(round(10.6))
 print(round(3.14159, 2))
@@ -46,8 +39,7 @@ print(max(3, 1, 9))
 print(pow(2, 3))
 print(sum([1, 2, 3, 4]))
 
-print("--- 5. The math module ---")
-# 10 methods of numbers: round, floor, ceil, abs, pow, sqrt, log, sin, cos, pi
+# math module, 10 methods
 num = 100
 print(type(num))
 num2 = 1999
@@ -70,7 +62,7 @@ print(math.cos(0))
 print(math.pi)
 print(math.e)
 
-print("--- 6. The random module ---")
+# random
 data = [1, 2, 3, 4, 5]
 print(random.choice(data))
 print(random.randint(1, 10))
@@ -78,19 +70,17 @@ print(random.randrange(0, 10, 2))
 print(random.random())
 print(random.uniform(1, 5))
 
-print("--- 7. Formatting numbers ---")
+# formatting
 price = 49.99
-print(f"Price: {price}")
-print(f"Price: {price:.2f}")
-print(f"Price: {price:.0f}")
-print(f"Big number: {1000000:,}")
-print(f"Percent: {0.856:.1%}")
-print(f"Pi: {3.14159:.3f}")
+print("Price:", price)
+print("Price:", round(price, 2))
+print("Big number:", 1000000)
+print("Percent:", 0.856)
+print("Pi:", round(3.14159, 3))
 
-print("--- 8. Common mistakes: float precision ---")
+# float problem
 print(0.1 + 0.2)
 print(0.1 + 0.2 == 0.3)
 print(round(0.1 + 0.2, 2))
-print(abs((0.1 + 0.2) - 0.3) < 0.0001)
 print(int(3.9))
 print(round(3.9))
